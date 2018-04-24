@@ -101,7 +101,7 @@ namespace Host
                 .AddWeChatCompany("WeChatCompany", options =>
                 {
                     options.AppId = "ww85a6abac8a4faac6";
-                    options.AppKey = "IEGbvmlHoC8m_XxNvYSXaaAEh0QGrbWKACavOElYG_c";
+                    options.AppKey = "IEGbvmlHoC8m_sdfsdfsdfQGrbWKACavOElYG_c";
                     options.Agentid = "1000012";
 
                     options.SignInScheme = IdentityServerConstants.ExternalCookieAuthenticationScheme;
