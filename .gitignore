@@ -1,0 +1,8 @@
+src/IdentitySSO/IdentitySSO.Host/obj/
+src/IdentitySSO/IdentitySSO.Host/bin/
+src/IdentityMVCClient/bin/
+src/IdentityMVCClient/obj/
+src/client/bin/
+src/client/obj/
+src/IdentitySSOClient/obj/
+src/IdentitySSOClient/bin/
