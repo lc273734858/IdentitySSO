@@ -1,0 +1,163 @@
+2018-04-18 19:01:36,825 - DEBUG - 【应用名称】 - Hosting shutdown
+2018-04-18 19:02:30,524 - INFO  - 【应用名称】 - User profile not available. Using 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ASP.NET\4.0.30319.0\AutoGenKeys\S-1-5-82-3185876732-1663450639-2734485821-1498328541-2570041999\DataProtection' as key repository and Windows DPAPI to encrypt keys at rest.
+2018-04-18 19:02:30,560 - DEBUG - 【应用名称】 - Reading data from registry key 'HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\ASP.NET\4.0.30319.0\AutoGenKeys\S-1-5-82-3185876732-1663450639-2734485821-1498328541-2570041999\DataProtection', value 'key-b01cb4d5-5215-4af1-945c-a28b40b7d4aa'.
+2018-04-18 19:02:30,566 - DEBUG - 【应用名称】 - Found key {b01cb4d5-5215-4af1-945c-a28b40b7d4aa}.
+2018-04-18 19:02:30,584 - DEBUG - 【应用名称】 - Considering key {b01cb4d5-5215-4af1-945c-a28b40b7d4aa} with expiration date 2018-07-17 05:33:20Z as default key.
+2018-04-18 19:02:30,605 - DEBUG - 【应用名称】 - Forwarded activator type request from Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Version=2.0.2.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.XmlEncryption.DpapiXmlDecryptor, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2018-04-18 19:02:30,610 - DEBUG - 【应用名称】 - Decrypting secret element using Windows DPAPI.
+2018-04-18 19:02:30,614 - DEBUG - 【应用名称】 - Forwarded activator type request from Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Version=2.0.2.0, Culture=neutral, PublicKeyToken=adb9793829ddae60 to Microsoft.AspNetCore.DataProtection.AuthenticatedEncryption.ConfigurationModel.AuthenticatedEncryptorDescriptorDeserializer, Microsoft.AspNetCore.DataProtection, Culture=neutral, PublicKeyToken=adb9793829ddae60
+2018-04-18 19:02:30,622 - DEBUG - 【应用名称】 - Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC.
+2018-04-18 19:02:30,631 - DEBUG - 【应用名称】 - Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC.
+2018-04-18 19:02:30,648 - DEBUG - 【应用名称】 - Using key {b01cb4d5-5215-4af1-945c-a28b40b7d4aa} as the default key.
+2018-04-18 19:02:30,653 - DEBUG - 【应用名称】 - Key ring with default key {b01cb4d5-5215-4af1-945c-a28b40b7d4aa} was loaded during application startup.
+2018-04-18 19:02:30,669 - INFO  - 【应用名称】 - You are using the in-memory version of the persisted grant store. This will store consent decisions, authorization codes, refresh and reference tokens in memory only. If you are using any of those features in production, you want to switch to a different store implementation.
+2018-04-18 19:02:30,695 - DEBUG - 【应用名称】 - Using idsrv as default scheme for authentication
+2018-04-18 19:02:30,695 - DEBUG - 【应用名称】 - Using idsrv as default scheme for sign-in
+2018-04-18 19:02:30,695 - DEBUG - 【应用名称】 - Using idsrv as default scheme for sign-out
+2018-04-18 19:02:30,696 - DEBUG - 【应用名称】 - Using idsrv as default scheme for challenge
+2018-04-18 19:02:30,696 - DEBUG - 【应用名称】 - Using idsrv as default scheme for forbid
+2018-04-18 19:02:30,932 - DEBUG - 【应用名称】 - Hosting starting
+2018-04-18 19:02:31,051 - DEBUG - 【应用名称】 - Hosting started
+2018-04-18 19:02:31,051 - DEBUG - 【应用名称】 - Loaded hosting startup assembly Host
+2018-04-18 19:02:31,051 - DEBUG - 【应用名称】 - Loaded hosting startup assembly Microsoft.AspNetCore.Server.IISIntegration
+2018-04-18 19:02:31,116 - DEBUG - 【应用名称】 - Connection id "0HLD53FGQ76Q5" started.
+2018-04-18 19:02:31,245 - INFO  - 【应用名称】 - Request starting HTTP/1.1 GET http://ilogin.5173.com/connect/authorize?client_id=mvc.implicit&redirect_uri=http%3A%2F%2Flocalhost%3A5005%2Fsignin-oidc&response_type=id_token&scope=openid%20profile&response_mode=form_post&nonce=636596461404548964.ODc4NWI2OTktOTU3ZC00NmUzLThiYTItZjI1N2IzZDczZWU1OTQ2MGYxODItOTFjNS00ZjE1LTg4N2EtYTVlNTUxZjAwOTQx&state=CfDJ8BcxKkS1QitAtv-9Siq0PiGKedEorQMGNBnM0SIZuYNLZHvaTfk7doYFfTqMsh5FCHBbT2Eh5x2x1rR5YsEXMXgWj6ZPC4QdUrgq7nElxg4PbJx6VpewusCa9qAzl66mKKO7RaB09ihJkZXzY6ERe9xJter63MmMzHUUcCCWVOp7KBe_N7RkMaVOl-UeJG0FLsycOjnLZ5x4OOQa1Zsdhk2L2nwBr2F7MoXW7Kw1eFETmdaWuGlU2exn5L2AYtnYg2W5A_d1jtnctCHpNJm7Fv6Cq4AoK2BztqljiAQiZdhQiN84V6-f2Ijvq_xVOmHM0w&x-client-SKU=ID_NET&x-client-ver=2.1.4.0  
+2018-04-18 19:02:31,482 - DEBUG - 【应用名称】 - AuthenticationScheme: idsrv was not authenticated.
+2018-04-18 19:02:31,497 - DEBUG - 【应用名称】 - AuthenticationScheme: idsrv was not authenticated.
+2018-04-18 19:02:31,500 - DEBUG - 【应用名称】 - Request path /connect/authorize matched to endpoint type Authorize
+2018-04-18 19:02:31,506 - DEBUG - 【应用名称】 - Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint
+2018-04-18 19:02:31,506 - INFO  - 【应用名称】 - Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize
+2018-04-18 19:02:31,510 - DEBUG - 【应用名称】 - Start authorize request
+2018-04-18 19:02:31,523 - DEBUG - 【应用名称】 - AuthenticationScheme: idsrv was not authenticated.
+2018-04-18 19:02:31,529 - DEBUG - 【应用名称】 - No user present in authorize request
+2018-04-18 19:02:31,534 - DEBUG - 【应用名称】 - Start authorize request protocol validation
+2018-04-18 19:02:31,591 - DEBUG - 【应用名称】 - Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2018-04-18 19:02:31,592 - INFO  - 【应用名称】 - Authorize request protocol validation successful
+2018-04-18 19:02:31,668 - INFO  - 【应用名称】 - ValidatedAuthorizeRequest
+{
+  "ClientId": "mvc.implicit",
+  "ClientName": "MVC Implicit",
+  "RedirectUri": "http://localhost:5005/signin-oidc",
+  "AllowedRedirectUris": [
+    "http://localhost:5005/home",
+    "http://localhost:5005/signin-oidc",
+    "http://localhost:5005/signout-oidc"
+  ],
+  "SubjectId": "anonymous",
+  "ResponseType": "id_token",
+  "ResponseMode": "form_post",
+  "GrantType": "implicit",
+  "RequestedScopes": "openid profile",
+  "State": "CfDJ8BcxKkS1QitAtv-9Siq0PiGKedEorQMGNBnM0SIZuYNLZHvaTfk7doYFfTqMsh5FCHBbT2Eh5x2x1rR5YsEXMXgWj6ZPC4QdUrgq7nElxg4PbJx6VpewusCa9qAzl66mKKO7RaB09ihJkZXzY6ERe9xJter63MmMzHUUcCCWVOp7KBe_N7RkMaVOl-UeJG0FLsycOjnLZ5x4OOQa1Zsdhk2L2nwBr2F7MoXW7Kw1eFETmdaWuGlU2exn5L2AYtnYg2W5A_d1jtnctCHpNJm7Fv6Cq4AoK2BztqljiAQiZdhQiN84V6-f2Ijvq_xVOmHM0w",
+  "Nonce": "636596461404548964.ODc4NWI2OTktOTU3ZC00NmUzLThiYTItZjI1N2IzZDczZWU1OTQ2MGYxODItOTFjNS00ZjE1LTg4N2EtYTVlNTUxZjAwOTQx",
+  "Raw": {
+    "client_id": "mvc.implicit",
+    "redirect_uri": "http://localhost:5005/signin-oidc",
+    "response_type": "id_token",
+    "scope": "openid profile",
+    "response_mode": "form_post",
+    "nonce": "636596461404548964.ODc4NWI2OTktOTU3ZC00NmUzLThiYTItZjI1N2IzZDczZWU1OTQ2MGYxODItOTFjNS00ZjE1LTg4N2EtYTVlNTUxZjAwOTQx",
+    "state": "CfDJ8BcxKkS1QitAtv-9Siq0PiGKedEorQMGNBnM0SIZuYNLZHvaTfk7doYFfTqMsh5FCHBbT2Eh5x2x1rR5YsEXMXgWj6ZPC4QdUrgq7nElxg4PbJx6VpewusCa9qAzl66mKKO7RaB09ihJkZXzY6ERe9xJter63MmMzHUUcCCWVOp7KBe_N7RkMaVOl-UeJG0FLsycOjnLZ5x4OOQa1Zsdhk2L2nwBr2F7MoXW7Kw1eFETmdaWuGlU2exn5L2AYtnYg2W5A_d1jtnctCHpNJm7Fv6Cq4AoK2BztqljiAQiZdhQiN84V6-f2Ijvq_xVOmHM0w",
+    "x-client-SKU": "ID_NET",
+    "x-client-ver": "2.1.4.0"
+  }
+}
+2018-04-18 19:02:31,671 - INFO  - 【应用名称】 - ProcessInteractionAsync
+2018-04-18 19:02:31,675 - INFO  - 【应用名称】 - Showing login: User is not authenticated
+2018-04-18 19:02:31,676 - INFO  - 【应用名称】 - End authorize request. result type: IdentityServer4.Endpoints.Results.LoginPageResult
+2018-04-18 19:02:31,676 - INFO  - 【应用名称】 - Invoking result: IdentityServer4.Endpoints.Results.LoginPageResult
+2018-04-18 19:02:31,733 - DEBUG - 【应用名称】 - Connection id "0HLD53FGQ76Q5" completed keep alive response.
+2018-04-18 19:02:31,742 - INFO  - 【应用名称】 - Request finished in 504.0427ms 302 
+2018-04-18 19:02:31,750 - INFO  - 【应用名称】 - Request starting HTTP/1.1 GET http://ilogin.5173.com/account/login?returnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3Dmvc.implicit%26redirect_uri%3Dhttp%253A%252F%252Flocalhost%253A5005%252Fsignin-oidc%26response_type%3Did_token%26scope%3Dopenid%2520profile%26response_mode%3Dform_post%26nonce%3D636596461404548964.ODc4NWI2OTktOTU3ZC00NmUzLThiYTItZjI1N2IzZDczZWU1OTQ2MGYxODItOTFjNS00ZjE1LTg4N2EtYTVlNTUxZjAwOTQx%26state%3DCfDJ8BcxKkS1QitAtv-9Siq0PiGKedEorQMGNBnM0SIZuYNLZHvaTfk7doYFfTqMsh5FCHBbT2Eh5x2x1rR5YsEXMXgWj6ZPC4QdUrgq7nElxg4PbJx6VpewusCa9qAzl66mKKO7RaB09ihJkZXzY6ERe9xJter63MmMzHUUcCCWVOp7KBe_N7RkMaVOl-UeJG0FLsycOjnLZ5x4OOQa1Zsdhk2L2nwBr2F7MoXW7Kw1eFETmdaWuGlU2exn5L2AYtnYg2W5A_d1jtnctCHpNJm7Fv6Cq4AoK2BztqljiAQiZdhQiN84V6-f2Ijvq_xVOmHM0w%26x-client-SKU%3DID_NET%26x-client-ver%3D2.1.4.0  
+2018-04-18 19:02:31,752 - DEBUG - 【应用名称】 - AuthenticationScheme: idsrv was not authenticated.
+2018-04-18 19:02:31,752 - DEBUG - 【应用名称】 - AuthenticationScheme: idsrv was not authenticated.
+2018-04-18 19:02:31,752 - INFO  - 【应用名称】 - No endpoint entry found for request path: /account/login
+2018-04-18 19:02:31,761 - DEBUG - 【应用名称】 - The request path /account/login does not match a supported file type
+2018-04-18 19:02:31,958 - DEBUG - 【应用名称】 - Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'.
+2018-04-18 19:02:31,989 - DEBUG - 【应用名称】 - Action 'IdentityServer4.Quickstart.UI.AccountController.Login (Host)' with id '71ced0f8-5ece-4d28-9032-b8c5b039233d' did not match the constraint 'Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint'
+2018-04-18 19:02:32,076 - DEBUG - 【应用名称】 - Executing action IdentityServer4.Quickstart.UI.AccountController.Login (Host)
+2018-04-18 19:02:32,197 - INFO  - 【应用名称】 - Executing action method IdentityServer4.Quickstart.UI.AccountController.Login (Host) with arguments (/connect/authorize/callback?client_id=mvc.implicit&redirect_uri=http%3A%2F%2Flocalhost%3A5005%2Fsignin-oidc&response_type=id_token&scope=openid%20profile&response_mode=form_post&nonce=636596461404548964.ODc4NWI2OTktOTU3ZC00NmUzLThiYTItZjI1N2IzZDczZWU1OTQ2MGYxODItOTFjNS00ZjE1LTg4N2EtYTVlNTUxZjAwOTQx&state=CfDJ8BcxKkS1QitAtv-9Siq0PiGKedEorQMGNBnM0SIZuYNLZHvaTfk7doYFfTqMsh5FCHBbT2Eh5x2x1rR5YsEXMXgWj6ZPC4QdUrgq7nElxg4PbJx6VpewusCa9qAzl66mKKO7RaB09ihJkZXzY6ERe9xJter63MmMzHUUcCCWVOp7KBe_N7RkMaVOl-UeJG0FLsycOjnLZ5x4OOQa1Zsdhk2L2nwBr2F7MoXW7Kw1eFETmdaWuGlU2exn5L2AYtnYg2W5A_d1jtnctCHpNJm7Fv6Cq4AoK2BztqljiAQiZdhQiN84V6-f2Ijvq_xVOmHM0w&x-client-SKU=ID_NET&x-client-ver=2.1.4.0) - ModelState is Valid
+2018-04-18 19:02:32,214 - INFO  - 【应用名称】 - returnUrl is valid
+2018-04-18 19:02:32,218 - INFO  - 【应用名称】 - returnUrl is valid
+2018-04-18 19:02:32,220 - DEBUG - 【应用名称】 - AuthenticationScheme: idsrv was not authenticated.
+2018-04-18 19:02:32,221 - DEBUG - 【应用名称】 - Start authorize request protocol validation
+2018-04-18 19:02:32,221 - DEBUG - 【应用名称】 - Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator
+2018-04-18 19:02:32,221 - INFO  - 【应用名称】 - Authorize request protocol validation successful
+2018-04-18 19:02:32,221 - INFO  - 【应用名称】 - AuthorizationRequest being returned
+2018-04-18 19:02:32,222 - INFO  - 【应用名称】 - AuthorizationRequest being returned
+2018-04-18 19:02:32,230 - DEBUG - 【应用名称】 - Executed action method IdentityServer4.Quickstart.UI.AccountController.Login (Host), returned result Microsoft.AspNetCore.Mvc.ViewResult.
+2018-04-18 19:02:32,270 - DEBUG - 【应用名称】 - View lookup cache miss for view 'Login' in controller 'Account'.
+2018-04-18 19:02:32,302 - DEBUG - 【应用名称】 - Using precompiled view for '/Views/Account/Login.cshtml'.
+2018-04-18 19:02:32,307 - DEBUG - 【应用名称】 - The view 'Login' was found.
+2018-04-18 19:02:32,309 - INFO  - 【应用名称】 - Executing ViewResult, running view at path /Views/Account/Login.cshtml.
+2018-04-18 19:02:32,402 - DEBUG - 【应用名称】 - View lookup cache miss for view '_ValidationSummary' in controller 'Account'.
+2018-04-18 19:02:32,402 - DEBUG - 【应用名称】 - Using precompiled view for '/Views/Shared/_ValidationSummary.cshtml'.
+2018-04-18 19:02:32,468 - INFO  - 【应用名称】 - Performing unprotect operation to key {b01cb4d5-5215-4af1-945c-a28b40b7d4aa} with purposes ('F:\netcore\IdentityServer4_20\netcore\IdentityServer4-2.1.3\src\Host\bin\Release\PublishOutput', 'Microsoft.AspNetCore.Antiforgery.AntiforgeryToken.v1').
+2018-04-18 19:02:32,484 - INFO  - 【应用名称】 - Performing protect operation to key {b01cb4d5-5215-4af1-945c-a28b40b7d4aa} with purposes ('F:\netcore\IdentityServer4_20\netcore\IdentityServer4-2.1.3\src\Host\bin\Release\PublishOutput', 'Microsoft.AspNetCore.Antiforgery.AntiforgeryToken.v1').
+2018-04-18 19:02:32,488 - DEBUG - 【应用名称】 - An antiforgery cookie token was reused.
+2018-04-18 19:02:32,641 - DEBUG - 【应用名称】 - View lookup cache miss for view '_Layout' in controller 'Account'.
+2018-04-18 19:02:32,642 - DEBUG - 【应用名称】 - Using precompiled view for '/Views/Shared/_Layout.cshtml'.
+2018-04-18 19:02:32,728 - INFO  - 【应用名称】 - Executed action IdentityServer4.Quickstart.UI.AccountController.Login (Host) in 650.0643ms
+2018-04-18 19:02:32,733 - DEBUG - 【应用名称】 - Connection id "0HLD53FGQ76Q5" completed keep alive response.
+2018-04-18 19:02:32,733 - INFO  - 【应用名称】 - Request finished in 982.5902ms 200 text/html; charset=utf-8
+2018-04-18 19:02:34,340 - INFO  - 【应用名称】 - Request starting HTTP/1.1 GET http://ilogin.5173.com/account/ExternalLogin?provider=WeChatCompany&returnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3Dmvc.implicit%26redirect_uri%3Dhttp%253A%252F%252Flocalhost%253A5005%252Fsignin-oidc%26response_type%3Did_token%26scope%3Dopenid%2520profile%26response_mode%3Dform_post%26nonce%3D636596461404548964.ODc4NWI2OTktOTU3ZC00NmUzLThiYTItZjI1N2IzZDczZWU1OTQ2MGYxODItOTFjNS00ZjE1LTg4N2EtYTVlNTUxZjAwOTQx%26state%3DCfDJ8BcxKkS1QitAtv-9Siq0PiGKedEorQMGNBnM0SIZuYNLZHvaTfk7doYFfTqMsh5FCHBbT2Eh5x2x1rR5YsEXMXgWj6ZPC4QdUrgq7nElxg4PbJx6VpewusCa9qAzl66mKKO7RaB09ihJkZXzY6ERe9xJter63MmMzHUUcCCWVOp7KBe_N7RkMaVOl-UeJG0FLsycOjnLZ5x4OOQa1Zsdhk2L2nwBr2F7MoXW7Kw1eFETmdaWuGlU2exn5L2AYtnYg2W5A_d1jtnctCHpNJm7Fv6Cq4AoK2BztqljiAQiZdhQiN84V6-f2Ijvq_xVOmHM0w%26x-client-SKU%3DID_NET%26x-client-ver%3D2.1.4.0  
+2018-04-18 19:02:34,340 - DEBUG - 【应用名称】 - AuthenticationScheme: idsrv was not authenticated.
+2018-04-18 19:02:34,340 - DEBUG - 【应用名称】 - AuthenticationScheme: idsrv was not authenticated.
+2018-04-18 19:02:34,340 - INFO  - 【应用名称】 - No endpoint entry found for request path: /account/ExternalLogin
+2018-04-18 19:02:34,341 - DEBUG - 【应用名称】 - The request path /account/ExternalLogin does not match a supported file type
+2018-04-18 19:02:34,341 - DEBUG - 【应用名称】 - Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'.
+2018-04-18 19:02:34,345 - DEBUG - 【应用名称】 - Executing action IdentityServer4.Quickstart.UI.AccountController.ExternalLogin (Host)
+2018-04-18 19:02:34,347 - INFO  - 【应用名称】 - Executing action method IdentityServer4.Quickstart.UI.AccountController.ExternalLogin (Host) with arguments (WeChatCompany, /connect/authorize/callback?client_id=mvc.implicit&redirect_uri=http%3A%2F%2Flocalhost%3A5005%2Fsignin-oidc&response_type=id_token&scope=openid%20profile&response_mode=form_post&nonce=636596461404548964.ODc4NWI2OTktOTU3ZC00NmUzLThiYTItZjI1N2IzZDczZWU1OTQ2MGYxODItOTFjNS00ZjE1LTg4N2EtYTVlNTUxZjAwOTQx&state=CfDJ8BcxKkS1QitAtv-9Siq0PiGKedEorQMGNBnM0SIZuYNLZHvaTfk7doYFfTqMsh5FCHBbT2Eh5x2x1rR5YsEXMXgWj6ZPC4QdUrgq7nElxg4PbJx6VpewusCa9qAzl66mKKO7RaB09ihJkZXzY6ERe9xJter63MmMzHUUcCCWVOp7KBe_N7RkMaVOl-UeJG0FLsycOjnLZ5x4OOQa1Zsdhk2L2nwBr2F7MoXW7Kw1eFETmdaWuGlU2exn5L2AYtnYg2W5A_d1jtnctCHpNJm7Fv6Cq4AoK2BztqljiAQiZdhQiN84V6-f2Ijvq_xVOmHM0w&x-client-SKU=ID_NET&x-client-ver=2.1.4.0) - ModelState is Valid
+2018-04-18 19:02:34,353 - DEBUG - 【应用名称】 - Executed action method IdentityServer4.Quickstart.UI.AccountController.ExternalLogin (Host), returned result Microsoft.AspNetCore.Mvc.ChallengeResult.
+2018-04-18 19:02:34,356 - INFO  - 【应用名称】 - Executing ChallengeResult with authentication schemes (WeChatCompany).
+2018-04-18 19:02:34,387 - INFO  - 【应用名称】 - Performing protect operation to key {b01cb4d5-5215-4af1-945c-a28b40b7d4aa} with purposes ('F:\netcore\IdentityServer4_20\netcore\IdentityServer4-2.1.3\src\Host\bin\Release\PublishOutput', 'Microsoft.AspNetCore.Authentication.WeChatCompany.WeChatHandler', 'WeChatCompany', 'v1').
+2018-04-18 19:02:34,389 - INFO  - 【应用名称】 - AuthenticationScheme: WeChatCompany was challenged.
+2018-04-18 19:02:34,390 - INFO  - 【应用名称】 - Executed action IdentityServer4.Quickstart.UI.AccountController.ExternalLogin (Host) in 44.4888ms
+2018-04-18 19:02:34,390 - DEBUG - 【应用名称】 - Connection id "0HLD53FGQ76Q5" completed keep alive response.
+2018-04-18 19:02:34,390 - INFO  - 【应用名称】 - Request finished in 50.2331ms 302 
+2018-04-18 19:02:55,625 - INFO  - 【应用名称】 - Request starting HTTP/1.1 GET http://ilogin.5173.com/signin-WeChatCompany?code=0iAxorgHzBmgJciSt9Yk6c8tGC7-ViI-tgDWHWshAtQ&state=CfDJ8NW0HLAVUvFKlFyii0C31Kp1QFoEPPqVtvBssOUhcM_u7edAS4lF-FoGgFc-BaYtq3gIQrgg6VDGikrU0AHOgD9o8F_bPrLwWR6YBaKU6M5sKdWp4H8d5cZFTI8tMrWCuGtFt2xP3v_DFQU8XsA6kosuNpMt9q9dO_HVvlUyuNXDvkxHa3SJ2fQSNUAHku7_VAwopqmNv-bIBBC67ofxtFQUpxgqFJHU4lywOZkru_FEeHBVkxyG9WRua9SZts46xuUtzIlqXp5hbmjjOoGvDBNFOlOwT4NYoeIWgA2JtFCl7ParKIIdjHmyAUUrc07Cmvc8ieUOCPgn8e_DTgBR33n-ni-0fndQl2q8UMs6XvTOqrN_U0-Q9EVTgRk0L55pRzrSX_M_xS9RTFvcsfnL8CoaBQwp1fPxKYCfpk05WeOc6caUcTaij4MNPuV3ajequf_qrw7gORKRpisafwYcAV-OQpsBdYHgK8bER9uE50QJEXcaMDtyU1AQzA3qL4kN4rlpW7jHUtpA_Fovh9sJNI_wdA895m8dYwIWK6EPgJ6m8nE1282DCgacWnA6eQ1o4ChBIaMTTN3PkNyoufZNSYhi0NIhZB_zwn9Nf6IvLR8AUduVGEhYdkBbgHcY6sfphbZ1ZV30ytxMvB1MhPqm5yMdScnDnuA_33PEu-68SUf8igQLjRvwtgwJQmRW_YZ62n9nc8AbIUhnyqsfBRZZMCOiUhEmKvFq3cB_GQTB3OsJbFFGwqThs-5qNLYv9cjqMQHWFsDrOMhqF0zYkVX3pKQ54N7ZBqh5-knBWSHBKhZPjD_CVu46EnjqJNGsUCF58VKJWS7g3yZQCNSYyYpSqtt7jasytvCLJDeCQ8b-XNfVUViK1LMIEVyR4yMPcywUVwmDA-vQimPQIOZyvh5RWfwlUUHGleyKV74etZZItZWFAH7TZT_fSPU8_qAKZmOwuJ-g0_I5rZphQBD_IiPTJj2qT7U1r50pP5T4oaIn7bpxZDVYU8qDuiKYbE-IZBcU0EaP8ECFpCQhjk8H_utRDHdC6LJYM9djDbXdROJJ9ag7S9WALUhUff5Ij4QFpGU8fb7uNECm2A-fAPu09Gi8yJqdSx3n0PfJJg6MVDiL_r_pqXnqjAEc79cmlpb5acVsFZ_tibz_RtJ6_znw8Lav1iq8L5qmlwhLh5qrQUabOGMa&appid=ww85a6abac8a4faac6  
+2018-04-18 19:02:55,635 - INFO  - 【应用名称】 - Performing unprotect operation to key {b01cb4d5-5215-4af1-945c-a28b40b7d4aa} with purposes ('F:\netcore\IdentityServer4_20\netcore\IdentityServer4-2.1.3\src\Host\bin\Release\PublishOutput', 'Microsoft.AspNetCore.Authentication.WeChatCompany.WeChatHandler', 'WeChatCompany', 'v1').
+2018-04-18 19:03:09,827 - DEBUG - 【应用名称】 - ExchangeCodeAsync : {"errcode":0,"errmsg":"ok","access_token":"Hbqq1ux46KaCSNTWPes1JvRPcZoOcX-RaoDZDaCa-a2Hj4EF7Jo_M2NZMMlSa2HGBsnsC1gDflokJTPCQ7ej4PdJV0T1PslXDUjdXZJCPGrpGluAaDZzgIiULT1kXLBcw5b-IOzqxm8nAFT6HLcjO-z7tXlGJd4sEiercicOYA-KgZGqikR92jYn0SoKbPvkXjT6Rsi5JR3Z87eGtHPYSg","expires_in":7200}
+2018-04-18 19:03:09,843 - DEBUG - 【应用名称】 - payload : {
+  "errcode": 0,
+  "errmsg": "ok",
+  "access_token": "Hbqq1ux46KaCSNTWPes1JvRPcZoOcX-RaoDZDaCa-a2Hj4EF7Jo_M2NZMMlSa2HGBsnsC1gDflokJTPCQ7ej4PdJV0T1PslXDUjdXZJCPGrpGluAaDZzgIiULT1kXLBcw5b-IOzqxm8nAFT6HLcjO-z7tXlGJd4sEiercicOYA-KgZGqikR92jYn0SoKbPvkXjT6Rsi5JR3Z87eGtHPYSg",
+  "expires_in": 7200,
+  "code": "0iAxorgHzBmgJciSt9Yk6c8tGC7-ViI-tgDWHWshAtQ"
+}
+2018-04-18 19:03:09,851 - DEBUG - 【应用名称】 - code : 0iAxorgHzBmgJciSt9Yk6c8tGC7-ViI-tgDWHWshAtQ
+2018-04-18 19:03:12,374 - DEBUG - 【应用名称】 - {"errcode":40029,"errmsg":"invalid code, hint: [1524049396_1_5833cf365655537307b319c3c5d441b5], more info at https://open.work.weixin.qq.com/devtool/query?e=40029","agent":[]}
+2018-04-18 19:03:12,385 - DEBUG - 【应用名称】 - success
+2018-04-18 19:03:12,405 - ERROR - 【应用名称】 - System.NullReferenceException: Object reference not set to an instance of an object.
+   at Microsoft.AspNetCore.Authentication.WeChatCompany.WeChatHandler.<CreateTicketAsync>d__2.MoveNext() in F:\netcore\IdentityServer4_20\netcore\IdentityServer4-2.1.3\Microsoft.AspNetCore.Authentication.WeChatCompany\WeChatCompanyHandler.cs:line 54
+2018-04-18 19:03:12,405 - INFO  - 【应用名称】 - Error from RemoteAuthentication: Object reference not set to an instance of an object..
+2018-04-18 19:03:12,406 - ERROR - 【应用名称】 - An unhandled exception has occurred while executing the request
+System.NullReferenceException: Object reference not set to an instance of an object.
+   at Microsoft.AspNetCore.Authentication.RemoteAuthenticationHandler`1.<HandleRequestAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at IdentityServer4.Hosting.FederatedSignOut.AuthenticationRequestHandlerWrapper.<HandleRequestAsync>d__6.MoveNext() in F:\netcore\IdentityServer4_20\netcore\IdentityServer4-2.1.3\src\IdentityServer4\Hosting\FederatedSignOut\AuthenticationRequestHandlerWrapper.cs:line 38
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.<Invoke>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Cors.Infrastructure.CorsMiddleware.<Invoke>d__7.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at IdentityServer4.Hosting.BaseUrlMiddleware.<Invoke>d__3.MoveNext() in F:\netcore\IdentityServer4_20\netcore\IdentityServer4-2.1.3\src\IdentityServer4\Hosting\BaseUrlMiddleware.cs:line 43
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.<Invoke>d__7.MoveNext()
+2018-04-18 19:03:12,548 - DEBUG - 【应用名称】 - Connection id "0HLD53FGQ76Q5" completed keep alive response.
+2018-04-18 19:03:12,548 - INFO  - 【应用名称】 - Request finished in 16924.0211ms 500 text/html; charset=utf-8
+2018-04-18 19:04:31,086 - DEBUG - 【应用名称】 - Connection id "0HLD53FGQ76Q5" reset.
+2018-04-18 19:04:31,087 - DEBUG - 【应用名称】 - Connection id "0HLD53FGQ76Q5" disconnecting.
+2018-04-18 19:04:31,090 - DEBUG - 【应用名称】 - Connection id "0HLD53FGQ76Q5" sending FIN.
+2018-04-18 19:04:31,092 - DEBUG - 【应用名称】 - Connection id "0HLD53FGQ76Q5" stopped.
+2018-04-18 19:23:29,894 - DEBUG - 【应用名称】 - Hosting shutdown

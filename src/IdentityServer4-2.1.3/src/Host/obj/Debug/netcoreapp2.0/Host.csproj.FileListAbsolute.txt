@@ -1,0 +1,16 @@
+F:\netcore\IdentityServer4_20\netcore\IdentityServer4-2.1.3\src\Host\bin\Debug\netcoreapp2.0\Host.deps.json
+F:\netcore\IdentityServer4_20\netcore\IdentityServer4-2.1.3\src\Host\bin\Debug\netcoreapp2.0\Host.runtimeconfig.json
+F:\netcore\IdentityServer4_20\netcore\IdentityServer4-2.1.3\src\Host\bin\Debug\netcoreapp2.0\Host.runtimeconfig.dev.json
+F:\netcore\IdentityServer4_20\netcore\IdentityServer4-2.1.3\src\Host\bin\Debug\netcoreapp2.0\Host.dll
+F:\netcore\IdentityServer4_20\netcore\IdentityServer4-2.1.3\src\Host\bin\Debug\netcoreapp2.0\Host.pdb
+F:\netcore\IdentityServer4_20\netcore\IdentityServer4-2.1.3\src\Host\bin\Debug\netcoreapp2.0\IdentityServer4.dll
+F:\netcore\IdentityServer4_20\netcore\IdentityServer4-2.1.3\src\Host\bin\Debug\netcoreapp2.0\IdentityServer4.pdb
+F:\netcore\IdentityServer4_20\netcore\IdentityServer4-2.1.3\src\Host\bin\Debug\netcoreapp2.0\IdentityServer4.xml
+F:\netcore\IdentityServer4_20\netcore\IdentityServer4-2.1.3\src\Host\obj\Debug\netcoreapp2.0\Host.csprojResolveAssemblyReference.cache
+F:\netcore\IdentityServer4_20\netcore\IdentityServer4-2.1.3\src\Host\obj\Debug\netcoreapp2.0\Host.csproj.CoreCompileInputs.cache
+F:\netcore\IdentityServer4_20\netcore\IdentityServer4-2.1.3\src\Host\obj\Debug\netcoreapp2.0\Host.AssemblyInfoInputs.cache
+F:\netcore\IdentityServer4_20\netcore\IdentityServer4-2.1.3\src\Host\obj\Debug\netcoreapp2.0\Host.AssemblyInfo.cs
+F:\netcore\IdentityServer4_20\netcore\IdentityServer4-2.1.3\src\Host\obj\Debug\netcoreapp2.0\Host.dll
+F:\netcore\IdentityServer4_20\netcore\IdentityServer4-2.1.3\src\Host\obj\Debug\netcoreapp2.0\Host.pdb
+F:\netcore\IdentityServer4_20\netcore\IdentityServer4-2.1.3\src\Host\bin\Debug\netcoreapp2.0\Microsoft.AspNetCore.Authentication.WeChatCompany.dll
+F:\netcore\IdentityServer4_20\netcore\IdentityServer4-2.1.3\src\Host\bin\Debug\netcoreapp2.0\Microsoft.AspNetCore.Authentication.WeChatCompany.pdb

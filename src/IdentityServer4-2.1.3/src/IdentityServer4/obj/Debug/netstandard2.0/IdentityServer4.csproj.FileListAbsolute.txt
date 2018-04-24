@@ -1,0 +1,11 @@
+F:\netcore\IdentityServer4_20\netcore\IdentityServer4-2.1.3\src\IdentityServer4\bin\Debug\netstandard2.0\IdentityServer4.deps.json
+F:\netcore\IdentityServer4_20\netcore\IdentityServer4-2.1.3\src\IdentityServer4\bin\Debug\netstandard2.0\IdentityServer4.dll
+F:\netcore\IdentityServer4_20\netcore\IdentityServer4-2.1.3\src\IdentityServer4\bin\Debug\netstandard2.0\IdentityServer4.pdb
+F:\netcore\IdentityServer4_20\netcore\IdentityServer4-2.1.3\src\IdentityServer4\bin\Debug\netstandard2.0\IdentityServer4.xml
+F:\netcore\IdentityServer4_20\netcore\IdentityServer4-2.1.3\src\IdentityServer4\obj\Debug\netstandard2.0\IdentityServer4.csprojResolveAssemblyReference.cache
+F:\netcore\IdentityServer4_20\netcore\IdentityServer4-2.1.3\src\IdentityServer4\obj\Debug\netstandard2.0\IdentityServer4.csproj.CoreCompileInputs.cache
+F:\netcore\IdentityServer4_20\netcore\IdentityServer4-2.1.3\src\IdentityServer4\obj\Debug\netstandard2.0\IdentityServer4.AssemblyInfoInputs.cache
+F:\netcore\IdentityServer4_20\netcore\IdentityServer4-2.1.3\src\IdentityServer4\obj\Debug\netstandard2.0\IdentityServer4.AssemblyInfo.cs
+F:\netcore\IdentityServer4_20\netcore\IdentityServer4-2.1.3\src\IdentityServer4\obj\Debug\netstandard2.0\IdentityServer4.dll
+F:\netcore\IdentityServer4_20\netcore\IdentityServer4-2.1.3\src\IdentityServer4\obj\Debug\netstandard2.0\IdentityServer4.xml
+F:\netcore\IdentityServer4_20\netcore\IdentityServer4-2.1.3\src\IdentityServer4\obj\Debug\netstandard2.0\IdentityServer4.pdb
